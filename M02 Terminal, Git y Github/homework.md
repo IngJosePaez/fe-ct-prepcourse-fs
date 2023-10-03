@@ -67,7 +67,7 @@ Debes generar un repositorio en GitHub. Para esto ingresa a [**GITHUB**](https:/
 
 El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**RepositorioHenry**_".
 
----
+--- **LISTO**
 
 </br >
 
@@ -75,7 +75,7 @@ El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**Repo
 
 En este ejercicio debes ingresar dentro del repositorio y crear una nueva carpeta con el nombre "_CarpetaHenry_". Utiliza los comandos de más arriba.
 
----
+--- **LISTO**
 
 </br >
 
@@ -83,15 +83,16 @@ En este ejercicio debes ingresar dentro del repositorio y crear una nueva carpet
 
 Ingresa a la carpeta que acabas de crear utilizando los comandos ya aprendidos.
 
----
+--- **LISTO**
 
 </br >
 
 ### **📍 EJERCICIO 04**
 
 Ahora debes crear un archivo llamado "**_primerArchivo.txt_**". Revisa el comando correspondiente a partir del sistema operativo que utilices (Linux o Windows).
+ --- **LISTO**
+</br > 
 
-</br >
 
 ## **💻 SUBE TUS AVANCES**
 

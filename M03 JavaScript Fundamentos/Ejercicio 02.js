@@ -3,35 +3,50 @@
 
 function devolverString(string) {
    // Debe retornar un string.
-   // Tu código:
+   return(string);
 }
+const cade=devolverString('Soy un String');
+console.log(cade);
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
-   // Tu código:
+   return(x + y); 
 }
+const sumatoria = suma(5, 5);
+console.log(sumatoria);
+
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
-   // Tu código:
+   return (x - y);
 }
+const resu = resta(5, 4);
+console.log(resu);
 
 function divide(x, y) {
    // Retorna el resultado de su división.
-   // Tu código:
+   return (x / y);
 }
+const resultado = divide(10, 2);
+console.log(resultado);
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
-   // Tu código:
+   return(x * y);
 }
+const resul = multiplica(5, 3);
+console.log(resul);
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
-   // Tu código:
+   return(x % y);
 }
+const resto= obtenerResto (21 % 5);
+console.log(resto);
+
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
