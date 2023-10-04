@@ -16,9 +16,9 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    if (edad >= 18) {
-      console.log('Allowed')
+      return 'Allowed';
    } else {
-      console.log('Not Allowed');
+      return 'Not allowed';
    }
 }
 
@@ -30,15 +30,11 @@ function conection(status) {
    // De lo contrario, presumimos que el usuario está "Offline".
    // Retornar el estado de conexión del usuario.
    if (status === 1) {
-      console.log('Online');
-      return true;
+      return 'Online'; 
    } else if (status === 2) {
-      console.log('Away');
-
-      return true;
+      return 'Away';
    } else {
-      console.log('Offline');
-      return false;
+      return'Offline';
    }
 }
 
@@ -49,9 +45,6 @@ function saludo(idioma) {
    // Si "idioma" es "ingles", devuelve "Hello!".
    // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
    
-   // Convertir el idioma ingresado a minúsculas para hacerlo insensible a mayúsculas/minúsculas
-   idioma = idioma.toLowerCase();
-
    // Realizar comparaciones y devolver los saludos correspondientes
    if (idioma === 'aleman') {
       return 'Guten Tag!';

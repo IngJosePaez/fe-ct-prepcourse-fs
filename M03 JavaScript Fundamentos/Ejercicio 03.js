@@ -28,9 +28,6 @@ function tienenMismaLongitud(str1, str2) {
    }
 }
 
-const valorIngresado = parseFloat(prompt('Ingrese un numero:'));
-const resultado = menosQueNoventa(valorIngresado);
-
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
@@ -45,8 +42,6 @@ function menosQueNoventa(num) {
    
 }
 
-const valorIngres = parseFloat(prompt('Ingrese un numero:'));
-const cincuent = mayorQueCincuenta(valorIngres);
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
    // De lo contrario, retorna false.

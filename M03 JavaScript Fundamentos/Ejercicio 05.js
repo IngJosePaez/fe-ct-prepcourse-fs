@@ -18,10 +18,9 @@ function esPositivo(num) {
       }
    }
    
-   const entrada = prompt('Ingrese un número:');
-   const numero = parseFloat(entrada);
+ 
    
-   console.log(esPositivo(numero));
+
    
 
 
