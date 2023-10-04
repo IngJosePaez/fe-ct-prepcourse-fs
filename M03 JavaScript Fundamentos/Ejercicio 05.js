@@ -18,12 +18,6 @@ function esPositivo(num) {
       }
    }
    
- 
-   
-
-   
-
-
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
@@ -67,8 +61,6 @@ function obtenerAreaRectangulo(alto, ancho) {
    const resultado = obtenerAreaRectangulo(alto, ancho);
    console.log(resultado);
 
-   
-
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
@@ -94,31 +86,21 @@ function areaDelTriangulo(base, altura) {
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
-   const tasaDeCambio = 1.20; // Tasa de cambio de euros a dólares
-   const cantidadEnDolares = euro * tasaDeCambio;
-   return cantidadEnDolares;
+      return euro * 1.20;
 }
-
-const euroCanti = prompt('Ingrese un valor en Euro:');
-const valorEnEuros = parseFloat(euroCanti);
-
-const cambioEnDolares = deEuroAdolar(valorEnEuros);
-console.log(`El valor ingresado en Euros equivale a:${cambioEnDolares}`);
 
 function esVocal(letra) {
    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
-   let caracter = prompt("Ingrese un carácter:");
+   if (letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u"){
+   return "Es vocal";
+} else if (letra.length >1){
+   return "Dato incorrecto";
 
-   // Verificar si se ingresó solo un carácter y si es una vocal
-   if (caracter.length === 1 && /^[aeiouAEIOU]$/.test(caracter)) {
-     console.log("Es una vocal.");
-   } else if (caracter.length === 1) {
-     console.log("Dato incorrecto.");
-   } else {
-     console.log("Dato incorrecto. Ingresó más de un carácter.");
-   }
+} else {
+   return "Dato incorrecto";
+}
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
